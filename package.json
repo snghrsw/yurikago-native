@@ -1,0 +1,37 @@
+{
+  "name": "yurikago",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "babel-preset-airbnb": "^2.2.3",
+    "eslint": "^3.18.0",
+    "eslint-plugin-react": "^6.10.3",
+    "jest-expo": "^0.3.0",
+    "react-native-scripts": "0.0.25",
+    "react-test-renderer": "~15.4.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "expo": "^15.1.0",
+    "flow-bin": "^0.42.0",
+    "native-base": "^2.0.13",
+    "react": "^15.4.2",
+    "react-native": "^0.42.3"
+  }
+}
